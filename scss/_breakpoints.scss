@@ -1,0 +1,97 @@
+// 1er breakpoint para tablet
+
+@media (max-width:768px){
+    .botonera{
+        ul{
+            li{
+                a{
+                    color: $mainColor;
+                    &:link{
+                        color: $mainColor;
+                    }
+                    &:visited{
+                        color: $mainColor;
+                    }
+                    &:hover{
+                        color: $mainColor;
+                    }
+                    &:active{
+                        color: $mainColor;
+                    }
+                    &[aria-current="page"]{
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+    }
+    .contenedorfoto{
+        grid-template-columns: repeat(2,1fr)
+    }
+    .boxmapa{
+        width: 50%;
+    }
+    main div section p{
+        display: none;
+    }
+    .footer{
+        justify-content: center;
+    }
+    #carouselMobile{
+        display: none
+    }
+}
+
+// 2do breakpoint para celu
+
+@media (max-width:480px){
+    .botonera{
+            ul{
+                li{
+                    a{
+                        color: $mainColor;
+                        &:link{
+                            color: $mainColor;
+                        }
+                        &:visited{
+                            color: $mainColor;
+                        }
+                        &:hover{
+                            color: $mainColor;
+                        }
+                        &:active{
+                            color: $mainColor;
+                        }
+                        &[aria-current="page"]{
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+    }
+    .contenedorfoto{
+        grid-template-columns: repeat(1,1fr)
+    }
+    .boxmapa{
+        width: 90%;
+    }
+    main div section p{
+        display: none;
+    }
+    .footer{
+        justify-content: center;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+    #carouselMobile{
+        display:inherit;
+    }
+    .h1ocultar{
+        display: none
+    }
+    .pocultar{
+        display: none;
+    }
+}
+

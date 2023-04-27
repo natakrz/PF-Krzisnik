@@ -1,0 +1,157 @@
+// nesting
+*{
+    box-sizing: border-box;
+}
+
+htlm{
+    font-size: 62.5%;
+}
+
+// nav
+.botonera{
+    background: linear-gradient(to right, $secondaryColor, $mainColor);
+    position: sticky;
+    width: $wTotal;
+        ul{
+            li{
+                a{
+                    color: $secondaryColor;
+                    font-size: $textSm;
+                    font-weight: $textLight;
+                    &:link{
+                        color: $secondaryColor;
+                    }
+                    &:visited{
+                        color: $secondaryColor;
+                    }
+                    &:hover{
+                        color: $secondaryColor;
+                        font-weight: $textReg;
+                    }
+                    &:active{
+                        color: $secondaryColor;
+                    }
+                    &[aria-current="page"]{
+                        color: $secondaryColor;
+                    }
+                }
+            }
+        }
+}
+
+// header
+header img{
+    width: $wTotal;
+}
+
+#carouselMobile{
+    display: none;
+}
+
+// page Maps 
+.contenedormapa{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.boxmapa{
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    overflow-x: unset;   
+}
+
+iframe{
+    margin: 20px, 30px;
+    padding: 10px;
+}
+
+.linkMore{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+// page Fotografía 
+.contenedorfoto{
+    align-items: flex-end;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+    .grid-template-columns-row{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+}
+
+main section a img{
+    width: $wTotal;
+}
+
+main section a img:hover{
+    opacity: 50%;
+}
+
+main section iframe{
+    width: $wTotal;
+}
+
+.boxfoto{
+    padding: 20px;
+    overflow-x: auto;
+}
+
+// page Contacto
+form{
+    margin: 30px;
+    div{
+        margin-bottom: 10px;
+    }
+}
+
+// footer
+footer{
+    background: linear-gradient(to right, $secondaryColor, $mainColor);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:relative;
+    width: $wTotal;
+    bottom: 0;
+    a{
+        text-decoration: none;
+    }
+    svg{
+        fill: $secondaryColor;
+        width: 30px;
+        margin-right: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+// error404
+.boxerror{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $wTotal;
+    margin: 20px;
+    padding: 20px;
+    img{
+        width: 60%;
+    }
+}
