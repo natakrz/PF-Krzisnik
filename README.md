@@ -8,8 +8,11 @@ El día de mañana seguramente me arme uno un poco más minimalista.
 El punto fuerte son la fotografía y una serie de Mapas donde tengo marcados Sitios Patrimoniales.
 
 - Link a wireframes entregados al principio: https://drive.google.com/drive/folders/1Bop4R2x5YRCl_HY-uUerBlRVyeau8lXa?usp=sharing
+- Link GitHub: https://github.com/natakrz/PF-Krzisnik.git
+- Link Pages: https://natakrz.github.io/PF-Krzisnik/
+- Link Netlity: 
 
-Con respecto a cómo se fue armando con las primeras entregas:
+Con respecto a cómo se fue armando:
 
 - nav usando BS. 
 - Saqué el link a "Home" ya que en las clases se comentó que esto ya es anticuado. 
@@ -51,3 +54,4 @@ Otros temas:
 
 Espero que anden bien :)
 Saludos!
+
