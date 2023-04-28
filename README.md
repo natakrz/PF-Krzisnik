@@ -10,7 +10,7 @@ El punto fuerte son la fotografía y una serie de Mapas donde tengo marcados Sit
 - Link a wireframes entregados al principio: https://drive.google.com/drive/folders/1Bop4R2x5YRCl_HY-uUerBlRVyeau8lXa?usp=sharing
 - Link GitHub: https://github.com/natakrz/PF-Krzisnik.git
 - Link Pages: https://natakrz.github.io/PF-Krzisnik/
-- Link Netlity: 
+- Link Netlity: https://mapaspatrimoniales.netlify.app/
 
 Con respecto a cómo se fue armando:
 
