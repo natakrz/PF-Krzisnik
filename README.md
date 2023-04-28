@@ -45,9 +45,9 @@ Con respecto a la Optimización SEO:
 - Las imágenes son propias, por lo que están optimizadas y llevadas a 72dpi con Psd.
 
 Otros temas:
-Usé Animaciones en la nav y el footer, no sé si son lindos pero para probar.
-Parches de @media no quise hacer, esta todo en _breakpoints, me parece más fácil de encontrar.
-Usé extends, mixins y nesting.
+- Usé Animaciones en la nav y el footer, no sé si son lindos pero para probar.
+- Parches de @media no quise hacer, esta todo en _breakpoints, me parece más fácil de encontrar.
+- Usé extends, mixins y nesting.
 
 Espero que anden bien :)
 Saludos!
