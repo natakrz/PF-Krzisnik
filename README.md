@@ -1,17 +1,32 @@
-# PreEntrega3-Krzisnik
+# PF-Krzisnik
 
-Hola! Cómo estás?
-Dejo el inicio del READ ME con lo siguiente:
-Siendo 13/04/2023 18:50 pude crear un nuevo repo, después de muchos fatal error que no sé si se debían a Telecentro o no.
-Finalmente logré subirlo. Continuaré el READ ME más adelante.
+Hola Lau! Hola Maca! Cómo están?
+Antes que nada les hago un resumen sobre mi proyecto y mi experiencia:
 
-Hola! Cómo va?
-Siendo 14/04/2023 23:40 actualizo el READ ME:
-Pude solucionar el fatal error, sinceramente no termino de entender bien qué fue. 
-Decidí arrancar una nueva terminal de git y una se sass desde cero y se acomodó.
+Mi idea (y la razón por la que me inscribí al curso) era armar un Portfolio personal. Obviamente para cumplir con todas las consignas del curso se fue transformando.
+El día de mañana seguramente me arme uno un poco más minimalista. 
+El punto fuerte son la fotografía y una serie de Mapas donde tengo marcados Sitios Patrimoniales.
 
-Con respecto al trabajo:
-Verás que hay muchos commit. La verdad me costó mucho este trabajo. 
+- Link a wireframes entregados al principio: https://drive.google.com/drive/folders/1Bop4R2x5YRCl_HY-uUerBlRVyeau8lXa?usp=sharing
+
+Con respecto a cómo se fue armando con las primeras entregas:
+
+- nav usando BS. 
+- Saqué el link a "Home" ya que en las clases se comentó que esto ya es anticuado. 
+- Usé el botón hamburguesa.
+- carousel, también usé BS, pero van a ver que en el html hay dos: esto es porque mi idea es tener un carousel en la Home únicamente pero que en mobile ocupe toda la pantalla, es un carousel vertical.
+- Cuando estoy en Home en mobile oculté todos los textos y dejé un carousel ocupando pantalla completa.
+- Los otros html tienen headers fijos porque me parecía muy repetitivo sino.
+
+Quise usar bs + flex + grid y todo lo que vimos, así que el resto de los html están más mezclados:
+- La page Mapas está acomodada con flex (aprovecho para mencionar que completé el juego de las ranitas) y es responsive con porcentajes.
+No sé si es lo ideal pero quería probar todas las formas.
+Las versiones de tablet y mobile van reubicando las columnas y además desaparecen textos para que sea más simple.
+- La page Fotografía es un grid, me pareció más cómodo este método a la hora del responsive.  
+Las versiones de tablet y mobile también van reubicando las columnas y además desaparecen textos para que sea más simple.
+(El responsive fue hecho con Responsive Web Design, no con Mobile First).
+(Las Fotografías de MDQ y Mendoza llevan a error404, no tengo fotos de esos lugares pero quería hacer una grilla más grande. Son de relleno.)
+
 Con respecto a la Optimización SEO:
 - html:5
 - Sections en lugar de divs, mejor.
@@ -33,11 +48,6 @@ Otros temas:
 Usé Animaciones en la nav y el footer, no sé si son lindos pero para probar.
 Parches de @media no quise hacer, esta todo en _breakpoints, me parece más fácil de encontrar.
 Usé extends, mixins y nesting.
-Algunas cosas las tuve que "desanidar" porque se me rompían al exagerar el anidado. Algunas cosas las dejé en borrador.txt por si querés revisar.
-La verdad tuve muy mala experiencia con CoderAsk, no logré resolver ningún problema con ellos, pero logré anidar de forma prolija bastantes cosas.
-Estoy un poco desepcionada con este tema, ya que tuve que arreglarmelas sola y no tengo conocimientos previos.
 
-Para la entrega final tengo anotados algunos condicionales y cosas más complicadas que quiero intentar, pero ahora tuve tantos inconvenientes que me da miedo no llegar a arreglar los posibles errores que puedan saltar al meter mucha mano. Entré en crisis jaja
-
-Espero que estés bien :)
+Espero que anden bien :)
 Saludos!
